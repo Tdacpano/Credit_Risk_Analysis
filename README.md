@@ -14,6 +14,8 @@
 # Deliverable 3
   In the third Deliverable we clustered Cryptocurrencies using K-means, then create dan elbow curve using hvPlot to find the best value for K from the DataFrame created in Deliverable 2. Then, we run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
   
+  <img width="452" alt="Screen Shot 2023-04-03 at 4 09 09 PM" src="https://user-images.githubusercontent.com/117120227/229645855-4ba4e47b-7aa9-4d68-84a2-e6d57d5c615b.png">
+
 # Deliverable 4
   In the last deliverable we created scatter plots with Plotly Express and hvplot, in order to visualize the distinct groups that correspond to the three principal components you created in Deliverable 2. Next we created a table with all the currently tradable cryptocurrencies using the hvplot.table() function. Once we had our table created we used the MinMaxScaler().fit_transform method to scale our columns between zero and one. This then allowed us to create another DataFrame we could plot using the hvplot scatter plot. 
 
